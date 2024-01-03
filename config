@@ -36,7 +36,7 @@ _G["Fumo Blox Fruit - HoHo Hub Kaitun V3"] = {
         -- Delay go to Third Sea
         ["Ectoplasm Farm"] = {
             Enabled = true, --true/false enabled is needable if u want Soul Guitar
-            FarmUntil = 999, -- 250 = soul guitar price
+            FarmUntil = 400, -- 250 = soul guitar price
         },
         ["Dark Beard Drop Farm"] = true, -- enabled this if u want 100% get Soul Guitar
         ["Full 3 Leg Sword and True Triple Katana"] = true, -- enabled this if u want 100% get true triple katana
