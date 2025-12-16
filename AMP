@@ -31,7 +31,7 @@ task.spawn(function()
         ["Blur_username"] = true,
         ["Blazing_Lion_Log"] = false,
         ["DiscordId"] = "801870507279384576",
-        ["Webhook"] = "https://discord.com/api/webhooks/1449439790939246805/gMCoZVVq_sgs-R759ebFnC_iog7c9Gr2xCzWiEJTPzylgWftQSlCYSvrKaeExsTmoxQU",
+        ["Webhook"] = "https://discord.com/api/webhooks/1449439678330568737/0dxfe0cAAulJY2Mfx1m2g4x0Lxol7n0pV7dhRpVL9ra95hPCW9ldsBJKI6SfSF5MGNsn",
         ["LegendaryWebhook"] = "https://discord.com/api/webhooks/1449439790939246805/gMCoZVVq_sgs-R759ebFnC_iog7c9Gr2xCzWiEJTPzylgWftQSlCYSvrKaeExsTmoxQU",
         ["NeonMegaWebhook"] = "https://discord.com/api/webhooks/1449439790939246805/gMCoZVVq_sgs-R759ebFnC_iog7c9Gr2xCzWiEJTPzylgWftQSlCYSvrKaeExsTmoxQU",
     }
