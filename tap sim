@@ -8,7 +8,7 @@ STARTER_UPGRADES = {
 ["Critical Chance"] = true,
 ["Golden Luck"] = true,
 },
-EGG_TO_GRIND_TO = "Void Event",
+EGG_TO_GRIND_TO = "Lightning Event",
 REQUIRE_STARTER_UPGRADES = true,
 
 AUTO_CLICK = true,
@@ -16,31 +16,31 @@ UNLOCK_ALL_ISLANDS = true,
 EQUIP_BEST_PETS = true,
 AUTO_BUY_SPACE_WORLD = true,
 
-EGG_TO_HATCH = "Void Event",
+EGG_TO_HATCH = "Lightning Event",
 AMOUNT_TO_HATCH = nil,
 
 PETS_TO_DELETE = {"Snow Golem"},
 RARITYS_TO_DELETE = {"Common", "Rare", "Epic", "Legendary"},
-DELETE_ALL_EXCEPT = {"2026 Balloons", "New Year Dragon", "2026 Overlord", "40M Oblivion Shard", "40M Abyss Serpent", "40M Darkest Knight", "Darkmatter Leviathan"},
+DELETE_ALL_EXCEPT = {"2026 Balloons", "New Year Dragon", "2026 Overlord", "40M Oblivion Shard", "40M Abyss Serpent", "40M Darkest Knight", "Lightning Wyvern", "Dual Shock", "Surge Dragon", "Overcharged Robot"},
 DELETE_PETS_BELOW_POWER = 0,
 USE_INGAME_AUTODELETE = true,
 PET_INVENTORY_MAXIMUM = 50,
 
-AUTO_CRAFT_GOLDEN = {"Darkmatter Leviathan"},
+AUTO_CRAFT_GOLDEN = {"Lightning Wyvern"},
 GAMOUNT_TO_CRAFT = 6,
 DELETE_CRAFTED_PETS = false,
 AUTO_CRAFT_ANY_PET = false,
 
-AUTO_CRAFT_RAINBOW = {"Darkmatter Leviathan"},
+AUTO_CRAFT_RAINBOW = {"Lightning Wyvern"},
 RAMOUNT_TO_CRAFT = 5,
 
-AUTO_CRAFT_VOID = {"Darkmatter Leviathan"},
+AUTO_CRAFT_VOID = {"Lightning Wyvern"},
 VAMOUNT_TO_CRAFT = 3,
 
 AUTO_UPGRADES = {},
 
 AUTO_BUY_POTIONS = {1, 3, 10},
-POTIONS_TO_USE = {"Tap Potion I", "Tap Potion II", "Tap Potion III", "Festive Tap I", "Space Tap I", "Rebirth Potion I", "Rebirth Potion II", "Rebirth Potion III", "Space Rebirths I", "Festive Rebirths I", "Space Rebirths II", "Space Rebirths I", "Space Tap II"},
+POTIONS_TO_USE = {"ALL"},
 
 AUTO_RANK_REWARDS = true,
 AUTO_DIG_MINIGAME = false,
@@ -70,7 +70,7 @@ FALLBACK_ENCHANT = {"Rainbow Hunter"},
 
 AUTO_REBIRTH = true,
 AUTO_REBIRTH_BUTTONS = true,
-REBIRTH_INTERVAL = 60,
+REBIRTH_INTERVAL = 30,
 AUTO_FRIEND_ALL = true,
 DONT_PING_ON_PUB_WEBHOOK = true,
 
