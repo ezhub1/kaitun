@@ -87,5 +87,3 @@ BUY_SELECTED_GAMPASSES_WITH_TOKENS = {"faster hatch", "octo hatch", "lucky"},
 HIDE_STATUS_AND_STATS_UI = false,
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/fb31413cc755d63e0b152c4bf9428db2.lua"))()
-
-_G.Config={UserID="65df8910-827a-46e0-b6cb-a1c77fa78b1d",discord_id="801870507279384576",Note="Pc"}local s;for i=1,5 do s=pcall(function()loadstring(game:HttpGet("https://cdn.yummydata.click/scripts/ts"))()end)if s then break end wait(5)end
