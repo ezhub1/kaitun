@@ -75,7 +75,7 @@ AUTO_FRIEND_ALL = true,
 DONT_PING_ON_PUB_WEBHOOK = true,
 
 MAIN_ACCOUNT = "Sab_storage9999",
-PETS_TO_TRADE = {"2026 Balloons", "New Year Dragon", "2026 Overlord", "40M Oblivion Shard", "40M Abyss Serpent", "40M Darkest Knight", "Lightning Wyvern", "Dual Shock", "Surge Dragon", "Overcharged Robot"},
+PETS_TO_TRADE = {"2026 Balloons", "New Year Dragon", "2026 Overlord", "40M Oblivion Shard", "40M Abyss Serpent", "40M Darkest Knight", "Dual Shock", "Surge Dragon", "Overcharged Robot"},
 MAX_SERVER_PLAYERS = 12,
 JOB_ID = "031c4ff4-abe2-4c85-8f68-43546b14eb51",
 
