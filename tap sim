@@ -73,6 +73,7 @@ AUTO_REBIRTH_BUTTONS = true,
 REBIRTH_INTERVAL = 30,
 AUTO_FRIEND_ALL = true,
 DONT_PING_ON_PUB_WEBHOOK = true,
+IGNORE_SECRET_WHEN_EQUIPPING = true,
 
 MAIN_ACCOUNT = "Sab_storage9999",
 PETS_TO_TRADE = {"2026 Balloons", "New Year Dragon", "2026 Overlord", "40M Oblivion Shard", "40M Abyss Serpent", "40M Darkest Knight", "Dual Shock", "Surge Dragon", "Overcharged Robot"},
