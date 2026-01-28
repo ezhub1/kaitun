@@ -88,7 +88,7 @@ getgenv().Settings = {
      PETS_TO_TRADE = {"Dual Shock", "Surge Dragon", "Overcharged Robot"},
      MAX_SERVER_PLAYERS = 12,
      TOKENS_TO_TRADE = 0, 
-     JOB_ID = "5f52e87c-c67a-407f-a494-3d1556a41408",
+     JOB_ID = "a235a662-06b1-4052-8c07-2f05200b26fd",
 
      DO_TRADE_PLAZA = false,
      PETS_TO_LIST = {
