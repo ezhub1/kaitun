@@ -8,7 +8,7 @@ getgenv().Settings = {
         ["Critical Chance"] = true,
         ["Golden Luck"] = true,
     },
-    EGG_TO_GRIND_TO = "Lightning Event",
+    EGG_TO_GRIND_TO = "",
     REQUIRE_STARTER_UPGRADES = true,
 
     AUTO_CLICK = true,
@@ -16,7 +16,7 @@ getgenv().Settings = {
     EQUIP_BEST_PETS = true,
     AUTO_BUY_SPACE_WORLD = false,
 
-    EGG_TO_HATCH = "Lightning Event",
+    EGG_TO_HATCH = "",
     AMOUNT_TO_HATCH = nil,
 
     PETS_TO_DELETE = {"Snow Golem"},
@@ -84,13 +84,13 @@ getgenv().Settings = {
 
     HIDE_STATUS_AND_STATS_UI = false,
 
-     MAIN_ACCOUNT = "Sab_storage9999",
+     MAIN_ACCOUNT = "ezh_ub",
      PETS_TO_TRADE = {"Dual Shock", "Surge Dragon", "Overcharged Robot"},
      MAX_SERVER_PLAYERS = 12,
-     TOKENS_TO_TRADE = 0, 
-     JOB_ID = "a235a662-06b1-4052-8c07-2f05200b26fd",
+     TOKENS_TO_TRADE = 500, 
+     JOB_ID = "c497b58b-256b-4ee8-95ac-569047fed939",
 
-     DO_TRADE_PLAZA = false,
+     DO_TRADE_PLAZA = true,
      PETS_TO_LIST = {
          ["pet1"] = 9999,
          ["pet2"] = 9999
