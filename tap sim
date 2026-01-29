@@ -87,7 +87,7 @@ getgenv().Settings = {
      MAIN_ACCOUNT = "ezh_ub",
      PETS_TO_TRADE = {"Dual Shock", "Surge Dragon", "Overcharged Robot"},
      MAX_SERVER_PLAYERS = 12,
-     TOKENS_TO_TRADE = 500, 
+     TOKENS_TO_TRADE = 0, 
      JOB_ID = "c497b58b-256b-4ee8-95ac-569047fed939",
 
      DO_TRADE_PLAZA = true,
