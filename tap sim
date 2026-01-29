@@ -90,7 +90,7 @@ getgenv().Settings = {
      TOKENS_TO_TRADE = 0, 
      JOB_ID = "c497b58b-256b-4ee8-95ac-569047fed939",
 
-     DO_TRADE_PLAZA = true,
+     DO_TRADE_PLAZA = false,
      PETS_TO_LIST = {
          ["pet1"] = 9999,
          ["pet2"] = 9999
