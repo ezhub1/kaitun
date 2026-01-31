@@ -8,7 +8,7 @@ getgenv().Settings = {
         ["Critical Chance"] = true,
         ["Golden Luck"] = true,
     },
-    EGG_TO_GRIND_TO = "Basic Egg",
+    EGG_TO_GRIND_TO = "",
     REQUIRE_STARTER_UPGRADES = true,
 
     AUTO_CLICK = true,
@@ -88,7 +88,7 @@ getgenv().Settings = {
      PETS_TO_TRADE = {"Dual Shock", "Surge Dragon", "Overcharged Robot", "Neon Cat"},
      MAX_SERVER_PLAYERS = 12,
      TOKENS_TO_TRADE = 0, 
-     JOB_ID = "99b543bc-23fa-4b9e-adee-b61dd7de58af",
+     JOB_ID = "7e320b08-bcdf-4b71-b63f-717a4c73d82f",
 
      DO_TRADE_PLAZA = false,
      PETS_TO_LIST = {
