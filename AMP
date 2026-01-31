@@ -1,3 +1,4 @@
+script_key="pEgUfaZKGouyELURwJsXKoGlruaFMGgI";
 getgenv().Config = {
         Dashboard = {
             Enabled = true, -- Connect to Adopt Me dashboard for remote monitoring/control
@@ -7,7 +8,7 @@ getgenv().Config = {
         PetFarm = {
             Enabled = true, -- Enables the Pet Farm
             FarmEggs = true, -- If true, equips eggs to hatch them. If false, equips regular pets
-            BuyEggs = true, -- If FarmEggs is true and no eggs in inventory, buy eggs automatically
+            BuyEggs = false, -- If FarmEggs is true and no eggs in inventory, buy eggs automatically
             EggType = "aztec_egg_2025_aztec_egg", -- Which egg to equip ("any" = first available, or specific egg ID)
             BuyEggType = "aztec_egg_2025_aztec_egg", -- Which egg to buy when BuyEggs is true ("any" or specific egg ID)
             MaxPets = 1, -- How many pets to equip at once (1 = free, 2 = requires Robux gamepass)
@@ -36,7 +37,7 @@ getgenv().Config = {
             MaxPerType = {}, -- {} = unlimited, {dog = 2, cat = 1} = limits per pet type
         },
         Settings = {
-            AutoShowUI = false, -- Load the UI on script start (main overlay disable for less memory usage)
+            AutoShowUI = true, -- Load the UI on script start (main overlay disable for less memory usage)
             ShowOverlay = true, -- Show stats overlay (disables 3D rendering)
             ReduceGraphics = true, -- Reduce graphics quality to minimum
             FPSCap = 2, -- FPS cap option (0 = uncapped)
@@ -85,5 +86,4 @@ getgenv().Config = {
             ExcludedTasks = {}, -- Task IDs to skip (e.g., {"buccaneer_band", "summerfest_bonfire"})
         },
     };
-script_key="pEgUfaZKGouyELURwJsXKoGlruaFMGgI"
 loadstring(game:HttpGet("https://zekehub.com/scripts/AdoptMe/MassFarm.lua"))()
