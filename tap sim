@@ -8,7 +8,7 @@ getgenv().Settings = {
         ["Critical Chance"] = true,
         ["Golden Luck"] = true,
     },
-    EGG_TO_GRIND_TO = "Lunar Egg",
+    EGG_TO_GRIND_TO = "Basic Egg",
     REQUIRE_STARTER_UPGRADES = true,
 
     AUTO_CLICK = true,
@@ -16,12 +16,12 @@ getgenv().Settings = {
     EQUIP_BEST_PETS = true,
     AUTO_BUY_SPACE_WORLD = true,
 
-    EGG_TO_HATCH = "Lunar Egg",
+    EGG_TO_HATCH = "Basic Egg",
     AMOUNT_TO_HATCH = nil,
 
     PETS_TO_DELETE = {"Snow Golem"},
     RARITYS_TO_DELETE = {"Common", "Rare", "Epic", "Legendary", "Mythical"},
-    DELETE_ALL_EXCEPT = {"2026 Balloons", "New Year Dragon", "2026 Overlord", "40M Oblivion Shard", "40M Abyss Serpent", "40M Darkest Knight", "Lightning Wyvern", "Dual Shock", "Surge Dragon", "Overcharged Robot"},
+    DELETE_ALL_EXCEPT = {"2026 Balloons", "New Year Dragon", "2026 Overlord", "40M Oblivion Shard", "40M Abyss Serpent", "40M Darkest Knight", "Neon Cat", "Dual Shock", "Surge Dragon", "Overcharged Robot"},
     DELETE_PETS_BELOW_POWER = 0,
     USE_INGAME_AUTODELETE = true,
     PET_INVENTORY_MAXIMUM = 70,
@@ -85,10 +85,10 @@ getgenv().Settings = {
     HIDE_STATUS_AND_STATS_UI = false,
 
      MAIN_ACCOUNT = "ezh_ub",
-     PETS_TO_TRADE = {"Dual Shock", "Surge Dragon", "Overcharged Robot"},
+     PETS_TO_TRADE = {"Dual Shock", "Surge Dragon", "Overcharged Robot", "Neon Cat"},
      MAX_SERVER_PLAYERS = 12,
      TOKENS_TO_TRADE = 0, 
-     JOB_ID = "",
+     JOB_ID = "99b543bc-23fa-4b9e-adee-b61dd7de58af",
 
      DO_TRADE_PLAZA = false,
      PETS_TO_LIST = {
