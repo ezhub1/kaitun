@@ -71,7 +71,7 @@ getgenv().Settings = {
 
     AUTO_REBIRTH = true,
     AUTO_REBIRTH_BUTTONS = true,
-    REBIRTH_INTERVAL = 60,
+    REBIRTH_INTERVAL = 10,
     AUTO_FRIEND_ALL = true,
 
     HATCH_WEBHOOK_URL = "https://discord.com/api/webhooks/1460792409142202570/cekBCkWYDQYtEvM0nfoo-4tjLHgZ2vKM8bsXb1Ii4yoAx4941GGU5FbB27SbtSwp1g9i",
