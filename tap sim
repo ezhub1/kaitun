@@ -69,7 +69,7 @@ getgenv().Settings = {
     ENCHANT_WHEN_TEAM_HITS_X_POWER = 0,
     EQUIP_ONLY_SET_ENCHANT_PET = true,
 
-    AUTO_REBIRTH = true,
+    AUTO_REBIRTH = false,
     AUTO_REBIRTH_BUTTONS = true,
     REBIRTH_INTERVAL = 120,
     AUTO_FRIEND_ALL = true,
