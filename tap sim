@@ -69,9 +69,9 @@ getgenv().Settings = {
     ENCHANT_WHEN_TEAM_HITS_X_POWER = 0,
     EQUIP_ONLY_SET_ENCHANT_PET = true,
 
-    AUTO_REBIRTH = false,
+    AUTO_REBIRTH = true,
     AUTO_REBIRTH_BUTTONS = true,
-    REBIRTH_INTERVAL = 120,
+    REBIRTH_INTERVAL = 1800,
     AUTO_FRIEND_ALL = true,
 
     HATCH_WEBHOOK_URL = "https://discord.com/api/webhooks/1460792409142202570/cekBCkWYDQYtEvM0nfoo-4tjLHgZ2vKM8bsXb1Ii4yoAx4941GGU5FbB27SbtSwp1g9i",
@@ -85,10 +85,10 @@ getgenv().Settings = {
     HIDE_STATUS_AND_STATS_UI = false,
 
      MAIN_ACCOUNT = "ezh_ub",
-     PETS_TO_TRADE = {"Dual Shock", "Surge Dragon", "Overcharged Robot", "Neon Cat"},
+     PETS_TO_TRADE = {"Dual Shock", "Surge Dragon", "Overcharged Robot", "Neon Cat", "Grand Ice Wizard", "New Year Dragon"},
      MAX_SERVER_PLAYERS = 12,
      TOKENS_TO_TRADE = 0, 
-     JOB_ID = "7cacb423-b376-43b0-b5ec-59c2be5b7642",
+     JOB_ID = "ee6e12d1-76dd-4a9d-b08e-5fa7762a56d0",
 
      DO_TRADE_PLAZA = false,
      PETS_TO_LIST = {
