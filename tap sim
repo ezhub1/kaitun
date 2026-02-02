@@ -81,6 +81,9 @@ getgenv().Settings = {
 
     BUY_SELECTED_GAMPASSES_WITH_TOKENS = {"faster hatch", "octo hatch", "secret hunter", "luck"},
     AUTO_BUY_STELLAR_OVERDRIVE = false,
+    USE_TOTEM = {"Totem of Luck", "Totem of Clicks", "Totem Of Hatch Speed"},
+    GEM_MERCHANT_ITEMS_TO_BUY = {"Rebirth Potion II"},
+
 
     HIDE_STATUS_AND_STATS_UI = false,
 
@@ -88,7 +91,7 @@ getgenv().Settings = {
      PETS_TO_TRADE = {"Dual Shock", "Surge Dragon", "Overcharged Robot", "Neon Cat", "Grand Ice Wizard", "New Year Dragon"},
      MAX_SERVER_PLAYERS = 12,
      TOKENS_TO_TRADE = 0, 
-     JOB_ID = "ee6e12d1-76dd-4a9d-b08e-5fa7762a56d0",
+     JOB_ID = "2d575b6e-96f0-47cd-987a-e62a48dcd059",
 
      DO_TRADE_PLAZA = false,
      PETS_TO_LIST = {
