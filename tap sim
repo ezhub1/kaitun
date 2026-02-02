@@ -19,7 +19,7 @@ getgenv().Settings = {
     EGG_TO_HATCH = "Snowman",
     AMOUNT_TO_HATCH = nil,
 
-    PETS_TO_DELETE = {"Snow Golem"},
+    PETS_TO_DELETE = {"Snow Golem", "Frost Queen"},
     RARITYS_TO_DELETE = {"Common", "Rare", "Epic", "Legendary", "Mythical"},
     DELETE_ALL_EXCEPT = {"2026 Balloons", "New Year Dragon", "2026 Overlord", "40M Oblivion Shard", "40M Abyss Serpent", "40M Darkest Knight", "Neon Cat", "Dual Shock", "Surge Dragon", "Overcharged Robot"},
     DELETE_PETS_BELOW_POWER = 0,
