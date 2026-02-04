@@ -79,7 +79,7 @@ getgenv().Settings = {
     DONT_PING_ON_PUB_WEBHOOK = true,
     IGNORE_SECRET_WHEN_EQUIPPING = true,
 
-    BUY_SELECTED_GAMPASSES_WITH_TOKENS = {"faster hatch", "octo hatch", "secret hunter", "luck"},
+    BUY_SELECTED_GAMPASSES_WITH_TOKENS = {"faster hatch", "octo hatch", "secret hunter", "luck", "magic eggs"},
     AUTO_BUY_STELLAR_OVERDRIVE = false,
     USE_TOTEM = {"Totem of Luck", "Totem of Clicks", "Totem Of Hatch Speed"},
     GEM_MERCHANT_ITEMS_TO_BUY = {"Rebirth Potion II"},
