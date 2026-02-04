@@ -8,7 +8,7 @@ getgenv().Settings = {
         ["Critical Chance"] = true,
         ["Golden Luck"] = true,
     },
-    EGG_TO_GRIND_TO = "Basic",
+    EGG_TO_GRIND_TO = "Snowman",
     REQUIRE_STARTER_UPGRADES = true,
 
     AUTO_CLICK = true,
@@ -16,7 +16,7 @@ getgenv().Settings = {
     EQUIP_BEST_PETS = true,
     AUTO_BUY_SPACE_WORLD = true,
 
-    EGG_TO_HATCH = "Basic",
+    EGG_TO_HATCH = "Snowman",
     AMOUNT_TO_HATCH = nil,
 
     PETS_TO_DELETE = {"Snow Golem", "Frost Queen"},
@@ -26,7 +26,7 @@ getgenv().Settings = {
     USE_INGAME_AUTODELETE = true,
     PET_INVENTORY_MAXIMUM = 70,
 
-    AUTO_CRAFT_GOLDEN = {"Lightning Wyvern"},
+    AUTO_CRAFT_GOLDEN = {"Frost Queen"},
     GAMOUNT_TO_CRAFT = 6,
     DELETE_CRAFTED_PETS = false,
     AUTO_CRAFT_ANY_PET = false,
