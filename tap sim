@@ -8,7 +8,7 @@ getgenv().Settings = {
         ["Critical Chance"] = true,
         ["Golden Luck"] = true,
     },
-    EGG_TO_GRIND_TO = "Basic",
+    EGG_TO_GRIND_TO = "Lucky Event",
     REQUIRE_STARTER_UPGRADES = true,
 
     AUTO_CLICK = true,
@@ -16,22 +16,22 @@ getgenv().Settings = {
     EQUIP_BEST_PETS = true,
     AUTO_BUY_SPACE_WORLD = true,
 
-    EGG_TO_HATCH = "Basic",
+    EGG_TO_HATCH = "Lucky Event",
     AMOUNT_TO_HATCH = nil,
 
     PETS_TO_DELETE = {"Snow Golem", "Frost Queen"},
     RARITYS_TO_DELETE = {"Common", "Rare", "Epic", "Legendary", "Mythical"},
-    DELETE_ALL_EXCEPT = {"2026 Balloons", "New Year Dragon", "2026 Overlord", "40M Oblivion Shard", "40M Abyss Serpent", "40M Darkest Knight", "Neon Cat", "Dual Shock", "Surge Dragon", "Overcharged Robot"},
+    DELETE_ALL_EXCEPT = {"Neon Cat", "Dual Shock", "Surge Dragon", "Overcharged Robot", "Prismatic Luckyblock", "Fortunate Calico", "SUPER Luckyblock", "JACKPOT"},
     DELETE_PETS_BELOW_POWER = 0,
     USE_INGAME_AUTODELETE = true,
     PET_INVENTORY_MAXIMUM = 70,
 
-    AUTO_CRAFT_GOLDEN = {"Frost Queen"},
+    AUTO_CRAFT_GOLDEN = {"Prismatic Luckyblock"},
     GAMOUNT_TO_CRAFT = 6,
     DELETE_CRAFTED_PETS = false,
     AUTO_CRAFT_ANY_PET = false,
 
-    AUTO_CRAFT_RAINBOW = {"Lightning Wyvern"},
+    AUTO_CRAFT_RAINBOW = {"Prismatic Luckyblock"},
     RAMOUNT_TO_CRAFT = 5,
 
      AUTO_CRAFT_ELECTRIC = {"Lightning Wyvern"},
@@ -88,10 +88,10 @@ getgenv().Settings = {
     HIDE_STATUS_AND_STATS_UI = false,
 
      MAIN_ACCOUNT = "ezh_ub",
-     PETS_TO_TRADE = {"Dual Shock", "Surge Dragon", "Overcharged Robot", "Neon Cat", "Grand Ice Wizard", "New Year Dragon"},
+     PETS_TO_TRADE = {"Neon Cat", "Dual Shock", "Surge Dragon", "Overcharged Robot", "Fortunate Calico", "SUPER Luckyblock", "JACKPOT"},
      MAX_SERVER_PLAYERS = 12,
      TOKENS_TO_TRADE = 0, 
-     JOB_ID = "d288018e-375c-4f1f-8777-b2a1394cbdff",
+     JOB_ID = "69858d3d-b0ae-47c0-b318-d91f817bf8b1",
 
      DO_TRADE_PLAZA = false,
      PETS_TO_LIST = {
