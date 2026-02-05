@@ -34,8 +34,12 @@ getgenv().Settings = {
     AUTO_CRAFT_RAINBOW = {"Prismatic Luckyblock"},
     RAMOUNT_TO_CRAFT = 5,
 
-     AUTO_CRAFT_ELECTRIC = {"Lightning Wyvern"},
-     EAMOUNT_TO_CRAFT = 3,
+     AUTO_CRAFT_KEYS = {"Legendary", "Mythical"},
+     AUTO_USE_KEYS = true,
+     AUTO_CLAIM_ESSENCE = true,
+     PURCHASE_LUCKY_BLOCKS = {"Lucky Block", "Weather Lucky Block", "Starry Lucky Block"},
+     OPEN_LUCKY_BLOCK = {"Lucky Block", "Weather Lucky Block", "Starry Lucky Block"},
+     HATCH_FOR_KEY_PETS = {"Legendary", "Mythical"}, -- Eternal Moon or the other one work too
 
     AUTO_UPGRADES = {},
 
