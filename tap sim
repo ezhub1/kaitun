@@ -19,7 +19,7 @@ getgenv().Settings = {
     EGG_TO_HATCH = "Lucky Event",
     AMOUNT_TO_HATCH = nil,
 
-    PETS_TO_DELETE = {"Snow Golem", "Frost Queen"},
+    PETS_TO_DELETE = {"Snow Golem", "Frost Queen", "Blue Luckyblock", "Yellow Luckyblock"},
     RARITYS_TO_DELETE = {"Common", "Rare", "Epic", "Legendary", "Mythical"},
     DELETE_ALL_EXCEPT = {"Neon Cat", "Dual Shock", "Surge Dragon", "Overcharged Robot", "Prismatic Luckyblock", "Fortunate Calico", "SUPER Luckyblock", "JACKPOT"},
     DELETE_PETS_BELOW_POWER = 0,
@@ -95,7 +95,7 @@ getgenv().Settings = {
      PETS_TO_TRADE = {"Neon Cat", "Dual Shock", "Surge Dragon", "Overcharged Robot", "Fortunate Calico", "SUPER Luckyblock", "JACKPOT"},
      MAX_SERVER_PLAYERS = 12,
      TOKENS_TO_TRADE = 0, 
-     JOB_ID = "c8cc78d2-b23c-41d2-ac3b-9ccbb87664dc",
+     JOB_ID = "48222232-0f3e-4e18-8125-edf78b0bcd07",
 
      DO_TRADE_PLAZA = false,
      PETS_TO_LIST = {
