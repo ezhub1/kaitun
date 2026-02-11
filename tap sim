@@ -92,7 +92,7 @@ getgenv().Settings = {
 
     HIDE_STATUS_AND_STATS_UI = false,
 
-     MAIN_ACCOUNT = "ezh_ub",
+     MAIN_ACCOUNT = "ezh_ub1",
      PETS_TO_TRADE = {"Neon Cat", "Dual Shock", "Surge Dragon", "Overcharged Robot", "Fortunate Calico", "SUPER Luckyblock", "JACKPOT"},
      MAX_SERVER_PLAYERS = 12,
      TOKENS_TO_TRADE = 0, 
