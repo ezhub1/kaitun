@@ -8,7 +8,7 @@ getgenv().Settings = {
         ["Critical Chance"] = true,
         ["Golden Luck"] = true,
     },
-    EGG_TO_GRIND_TO = "Lucky Event",
+    EGG_TO_GRIND_TO = "Valentine Event",
     REQUIRE_STARTER_UPGRADES = true,
 
     AUTO_CLICK = true,
@@ -16,12 +16,12 @@ getgenv().Settings = {
     EQUIP_BEST_PETS = true,
     AUTO_BUY_SPACE_WORLD = true,
 
-    EGG_TO_HATCH = "Lucky Event",
+    EGG_TO_HATCH = "Valentine Event",
     AMOUNT_TO_HATCH = nil,
 
     PETS_TO_DELETE = {"Snow Golem", "Frost Queen", "Blue Luckyblock", "Yellow Luckyblock"},
     RARITYS_TO_DELETE = {"Common", "Rare", "Epic", "Legendary", "Mythical"},
-    DELETE_ALL_EXCEPT = {"Neon Cat", "Dual Shock", "Surge Dragon", "Overcharged Robot", "Prismatic Luckyblock", "Fortunate Calico", "SUPER Luckyblock", "JACKPOT"},
+    DELETE_ALL_EXCEPT = {"Neon Cat", "Chocolate Strawberry"},
     DELETE_PETS_BELOW_POWER = 0,
     USE_INGAME_AUTODELETE = true,
     PET_INVENTORY_MAXIMUM = 70,
