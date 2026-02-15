@@ -80,7 +80,7 @@ getgenv().Settings = {
     AUTO_FRIEND_ALL = true,
 
     HATCH_WEBHOOK_URL = "https://discord.com/api/webhooks/1460792409142202570/cekBCkWYDQYtEvM0nfoo-4tjLHgZ2vKM8bsXb1Ii4yoAx4941GGU5FbB27SbtSwp1g9i",
-    DISCORD_USER_ID = "801870507279384576",
+    DISCORD_USER_ID = "",
     DONT_PING_ON_PUB_WEBHOOK = true,
     IGNORE_SECRET_WHEN_EQUIPPING = true,
 
