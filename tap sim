@@ -27,12 +27,12 @@ getgenv().Settings = {
     PET_INVENTORY_MAXIMUM = 70,
     REJOIN_WHEN_BELOW_X_HPM = 50,
 
-    AUTO_CRAFT_GOLDEN = {"Prismatic Luckyblock"},
+    AUTO_CRAFT_GOLDEN = {"Chocolate Strawberry"},
     GAMOUNT_TO_CRAFT = 6,
     DELETE_CRAFTED_PETS = false,
     AUTO_CRAFT_ANY_PET = false,
 
-    AUTO_CRAFT_RAINBOW = {"Prismatic Luckyblock"},
+    AUTO_CRAFT_RAINBOW = {"Chocolate Strawberry"},
     RAMOUNT_TO_CRAFT = 5,
 
      AUTO_CRAFT_KEYS = {"Mythical"},
