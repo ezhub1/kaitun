@@ -1,108 +1,72 @@
-script_key="WFtjyFrvIPPOKfrLzcenasMDQSaeRyqr";
-getgenv().Settings = {
-    FPS_CAP = 5,
-    STARTER = true,
-    STARTER_UPGRADES = {
-        ["Hatch Speed"] = true,
-        ["Click Multiplier"] = true,
-        ["Critical Chance"] = true,
-        ["Golden Luck"] = true,
+script_key="nhHBZLAmrSWgFMaaQeduFWwVrYcBehSI";
+setfpscap(5)
+getgenv().tapSimConfig = {
+    -- Event Config
+
+    -- General Config
+    AUTO_UPDATE_RESTART = true,
+    STABLE_HATCH = false,  -- uses game hatch delay
+    AUTO_EQUIP_BEST = true,
+    ADD_FRIEND = true,
+    MAX_REBIRTH = math.huge,
+    REBIRTH_DELAY = 120,  -- Seconds
+    REDEEM_CODE = { },
+    OPEN_EGG = { "Rainbow", "Valentine Event" },
+    OPEN_EXCLUSIVE_EGG = { "Crimson Egg" },
+    UNLOCK_WORLD_2_BEST_EGG = false,  -- change true if farm best egg, false if event egg
+
+    BUY_GAMEPASS = { "SecretHunter", "MagicEggs", "x8Egg", "+4Equip", "+2Equip", "SuperLucky", "FasterEgg", "Luck", "Storage1" },
+    BUY_AUTO_CLICKER = true,
+    OPEN_ALL_GIFT = true,
+    BUY_MERCHANT = {},
+    BUY_GEM_SHOP = { 
+        ["RebirthButtons"] = 34, 
+        ["ClickMultiplier"] = 20, 
+        ["HatchSpeed"] = 5, 
+        ["GoldenLuck"] = 6, 
+        ["CriticalChance"] = 5, 
+        ["AutoClickerSpeed"] = 0, 
+        ["DoubleJumps"] = 0 
     },
-    EGG_TO_GRIND_TO = "Valentine Event",
-    REQUIRE_STARTER_UPGRADES = true,
 
-    AUTO_CLICK = true,
-    UNLOCK_ALL_ISLANDS = true,
-    EQUIP_BEST_PETS = true,
-    AUTO_BUY_SPACE_WORLD = true,
-
-    EGG_TO_HATCH = "Valentine Event",
-    AMOUNT_TO_HATCH = nil,
-
-    PETS_TO_DELETE = {"Snow Golem", "Frost Queen", "Blue Luckyblock", "Yellow Luckyblock"},
-    RARITYS_TO_DELETE = {"Common", "Rare", "Epic", "Legendary", "Mythical"},
-    DELETE_ALL_EXCEPT = {"Neon Cat", "Chocolate Strawberry"},
-    DELETE_PETS_BELOW_POWER = 0,
-    USE_INGAME_AUTODELETE = true,
-    PET_INVENTORY_MAXIMUM = 70,
-    REJOIN_WHEN_BELOW_X_HPM = 50,
-
-    AUTO_CRAFT_GOLDEN = {"Chocolate Strawberry"},
-    GAMOUNT_TO_CRAFT = 6,
-    DELETE_CRAFTED_PETS = false,
-    AUTO_CRAFT_ANY_PET = false,
-
-    AUTO_CRAFT_RAINBOW = {"Chocolate Strawberry"},
-    RAMOUNT_TO_CRAFT = 5,
-
-     AUTO_CRAFT_KEYS = {"Mythical"},
-     AUTO_USE_KEYS = true,
-     AUTO_CLAIM_ESSENCE = true,
-     PURCHASE_LUCKY_BLOCKS = {"Lucky Block", "Weather Lucky Block", "Starry Lucky Block"},
-     OPEN_LUCKY_BLOCK = {"Lucky Block", "Weather Lucky Block", "Starry Lucky Block"},
-     HATCH_FOR_KEY_PETS = {"Mythical"}, -- Eternal Moon or the other one work too
-
-    AUTO_UPGRADES = {},
-
-    AUTO_BUY_POTIONS = {1, 3, 10},
-    POTIONS_TO_USE = {"ALL"},
-
-    AUTO_RANK_REWARDS = true,
-    AUTO_DIG_MINIGAME = false,
-    AUTO_MEMORY_MATCH = false,
-    AUTO_WHEEL_SPIN = true,
-    AUTO_CLAIM_CHESTS = true,
-    AUTO_OPEN_PRESENTS  = true,
-
-
-    AUTO_CLAIM_QUESTS = true,
-    AUTO_DO_QUESTS = false,
-
-    DO_EGG_INDEX = {},
-    CRAFT_FOR_INDEX = false,
-    INDEX_VARIANT_TODO = {},
-    DO_EVENT_EGGS = true,
-    RARITIES_TO_DO = {},
-
-
-    FARM_ENCHANT_SHARDS = false,
-    ONLY_FARM_WHEN_SNOWMAN_ELECTRIFIED = false,
-    FARM_UNTIL_PETS_ENCHANTED = false,
-
-    TARGET_ENCHANTS = {"Secret Hunter"},
-   FALLBACK_ENCHANT = {"Rainbow Hunter", "Golden Hunter"}, -- applies when u have 3 secret hunter pets
-    ENCHANT_WHEN_TEAM_HITS_X_POWER = 0,
-    EQUIP_ONLY_SET_ENCHANT_PET = true,
-
-    AUTO_REBIRTH = true,
-    AUTO_REBIRTH_BUTTONS = true,
-    REBIRTH_INTERVAL = 600,
-    AUTO_FRIEND_ALL = true,
-
-    HATCH_WEBHOOK_URL = "https://discord.com/api/webhooks/1460792409142202570/cekBCkWYDQYtEvM0nfoo-4tjLHgZ2vKM8bsXb1Ii4yoAx4941GGU5FbB27SbtSwp1g9i",
-    DISCORD_USER_ID = "",
-    DONT_PING_ON_PUB_WEBHOOK = true,
-    IGNORE_SECRET_WHEN_EQUIPPING = true,
-
-    BUY_SELECTED_GAMPASSES_WITH_TOKENS = {"faster hatch", "octo hatch", "secret hunter", "luck", "magic eggs"},
-    AUTO_BUY_STELLAR_OVERDRIVE = false,
-    USE_TOTEM = {"Totem of Luck", "Totem of Clicks", "Totem Of Hatch Speed"},
-    GEM_MERCHANT_ITEMS_TO_BUY = {"Rebirth Potion II"},
-
-
-    HIDE_STATUS_AND_STATS_UI = false,
-
-     MAIN_ACCOUNT = "ezh_ub",
-     PETS_TO_TRADE = {"Neon Cat", "Snugglehorn", "Wicked Rose", "Pure Soul"},
-     MAX_SERVER_PLAYERS = 12,
-     TOKENS_TO_TRADE = 0, 
-     JOB_ID = "56c209a6-af7f-4b44-9bb3-7ffc39f08187",
-
-     DO_TRADE_PLAZA = false,
-     PETS_TO_LIST = {
-         ["pet1"] = 9999,
-         ["pet2"] = 9999
+    ENCHANT_EQUIPPED_ONLY = true,
+    AUTO_ENCHANT = { 
+        ["Secret I"] = { "Secret Hunter" },
+        ["Secret II"] = { "Secret Hunter" },
+        ["Secret III"] = { "Secret Hunter" },
     },
-     PREFER_SECRET_PLAZA = false,
+    FALLBACK_3_SECRET_HUNTER_ENCHANT = { 
+        ["Secret I"] = { "Rainbow Hunter" },
+        ["Secret II"] = { "Rainbow Hunter" },
+        ["Secret III"] = { "Rainbow Hunter" },
+    },
+
+    AUTO_DELETE_EGG_PET = { 
+        ["Rainbow"] = { "Red Bat", "Green Bunny", "Blue Dino", "Purple Dragon", "Colorful Unicorn" },
+        ["Valentine Event"] = { "Valentines Pup", "Valentines Cat", "Love Birdie", "Lovely Butterfly" },
+    },
+    KEEP_PET_NAME = { }, 
+    KEEP_PET_RARITY = { "Secret I", "Secret II", "Secret III", "Secret X" },
+    GOLDEN_PET = { ["Chocolate Strawberry"] = 6 },  -- ["Pet Name"] = 6 
+    RAINBOW_PET = { ["Chocolate Strawberry"] = 5 },  -- ["Pet Name"] = 5
+    USE_ALL_POTIONS = true,
+    USE_BOOST = { },  -- "Boost Name"
+    USE_TOTEM = { "TotemOfClicks", "TotemOfHatchSpeed", "TotemOfLuck", "TotemOfRebirths", "TotemOfSecretLuck" },
+
+    CRAFT_EASY_KEY = true,
+    CRAFT_HARD_KEY = true,
+    OPEN_GALAXY_LUCKY_BLOCK = true,
+    CREATE_LUCKY_BLOCK = { "Weather Lucky Block", "Wisdom Lucky Block", "Starry Lucky Block", "Totem Lucky Block", "Lucky Block" },
+    USE_LUCKY_BLOCK = { "Weather Lucky Block", "Wisdom Lucky Block", "Starry Lucky Block", "Totem Lucky Block", "Lucky Block" },
+    FIND_ALL_BLOCK_ESSENCE = true,  -- takes about 50s to search
+
+    -- Webhook
+    WEBHOOK_PET_RARITY = { "Secret I", "Secret II", "Secret III", "Secret X" },
+    WEBHOOK_URL = "https://ptb.discord.com/api/webhooks/1460792409142202570/cekBCkWYDQYtEvM0nfoo-4tjLHgZ2vKM8bsXb1Ii4yoAx4941GGU5FbB27SbtSwp1g9i",
+    DISCORD_ID = "",
+    SHOW_PUBLIC_DISCORD_ID = true,
+    SHOW_WEBHOOK_USERNAME = true,
+    SHOW_WEBHOOK_JOBID = true,
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/fb31413cc755d63e0b152c4bf9428db2.lua"))()
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/ffab66f7d96a48c13b12e526b19b37d4.lua"))()
