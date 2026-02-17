@@ -4,7 +4,7 @@ getgenv().tapSimConfig = {
     -- Event Config
 
     -- General Config
-    AUTO_UPDATE_RESTART = true,
+    AUTO_UPDATE_RESTART = false,
     STABLE_HATCH = false,  -- uses game hatch delay
     AUTO_EQUIP_BEST = true,
     ADD_FRIEND = true,
