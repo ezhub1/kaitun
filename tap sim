@@ -94,7 +94,7 @@ getgenv().Settings = {
     HIDE_STATUS_AND_STATS_UI = false,
 
      MAIN_ACCOUNT = "ezh_ub",
-     PETS_TO_TRADE = {"Neon Cat", "Snugglehorn", "Wicked Rose", "Pure Soul"},
+     PETS_TO_TRADE = {"Neon Cat", "Snugglehorn", "Wicked Rose", "Pure Soul", "SUPER Luckyblock", "Fortunate Calico", "JACKPOT"},
      MAX_SERVER_PLAYERS = 12,
      TOKENS_TO_TRADE = 0, 
      JOB_ID = "bdda9409-62dd-4143-8bd3-e031a09f3222",
