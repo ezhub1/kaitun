@@ -97,7 +97,7 @@ getgenv().Settings = {
      PETS_TO_TRADE = {"Neon Cat", "Snugglehorn", "Wicked Rose", "Pure Soul"},
      MAX_SERVER_PLAYERS = 12,
      TOKENS_TO_TRADE = 0, 
-     JOB_ID = "7a22c840-615b-4d64-b4e7-b354ce5284e7",
+     JOB_ID = "ac65e4d4-f7dc-4c36-ad5f-c7695c7c1300",
 
      DO_TRADE_PLAZA = false,
      PETS_TO_LIST = {
