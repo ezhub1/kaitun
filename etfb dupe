@@ -1,13 +1,14 @@
-script_key="shIxPdcKCXgGwpimGwEnDjnfZWsHEOFp";
+script_key="";
 getgenv().Config = {
     ["Main"] = {
         ["Keep Inventory"] = "",
         ["Collect Cash"] = true,
         ["Collect Tokens"] = true,
+        ["Collect Brainrots"] = true,
         ["Protected Rarities"] = {"Infinity"},
     },
     ["Performance"] = {
-        ["FPS Cap"] = 20,
+        ["FPS Cap"] = 60,
         ["Black Screen"] = false,
         ["Kick if Ping above"] = 75000,
     },
@@ -83,16 +84,21 @@ getgenv().Config = {
         },
     },
     ["Auto Rebirth"] = {
-        ["Enabled"] = true,
+        ["Enabled"] = false,
         ["Max Rebirth"] = 27,
         ["Max Speed"] = 500,
     },
     ["Lucky Blocks"] = {
-        ["Enabled"] = true,                              -- Enable Infinity farming while duping
+        ["Enabled"] = false,                              -- Enable Infinity farming while duping
         ["Collect Types"] = {"Divine", "Celestial"},      -- Types to collect (Divine > Celestial, NOT Secret)
         ["Max Level"] = 200,                              -- Max LB level (under 200 = better conversion)
         ["Pickup Attempts"] = 8,                          -- Pickup attempts per LB
         ["Auto Upgrade LB"] = true,                       -- Sell current LB if a better one spawns
+    },
+    ["Tower"] = {
+        ["Enabled"] = true,                                 -- Auto Tower Trials for Secret/Celestial/Divine/Infinity
+        ["Auto Claim"] = true,   
+        ["Collect Reward"] = {"Freezeti Cobretti", "Biscotti Macarotti", "Cupitron Consoletron", "Strawberry Elephant"},                             -- Brainrot names to pick up after reward (e.g. {"Noobini Infeeny", "Anububu"}). Infinity is always auto-collected.
     },
 }
 
