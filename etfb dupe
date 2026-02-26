@@ -98,7 +98,7 @@ getgenv().Config = {
     ["Tower"] = {
         ["Enabled"] = true,                                 -- Auto Tower Trials for Secret/Celestial/Divine/Infinity
         ["Auto Claim"] = true,   
-        ["Collect Reward"] = {"Draculini Meowlini"},                             -- Brainrot names to pick up after reward (e.g. {"Noobini Infeeny", "Anububu"}). Infinity is always auto-collected.
+        ["Collect Reward"] = {"Draculini Meowlini", "Magmew"},                             -- Brainrot names to pick up after reward (e.g. {"Noobini Infeeny", "Anububu"}). Infinity is always auto-collected.
     },
 }
 
