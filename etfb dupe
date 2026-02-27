@@ -84,12 +84,12 @@ getgenv().Config = {
         },
     },
     ["Auto Rebirth"] = {
-        ["Enabled"] = false,
+        ["Enabled"] = true,
         ["Max Rebirth"] = 27,
         ["Max Speed"] = 500,
     },
     ["Lucky Blocks"] = {
-        ["Enabled"] = false,                              -- Enable Infinity farming while duping
+        ["Enabled"] = true,                              -- Enable Infinity farming while duping
         ["Collect Types"] = {"Divine", "Celestial"},      -- Types to collect (Divine > Celestial, NOT Secret)
         ["Max Level"] = 200,                              -- Max LB level (under 200 = better conversion)
         ["Pickup Attempts"] = 8,                          -- Pickup attempts per LB
