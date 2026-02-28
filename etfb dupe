@@ -84,7 +84,7 @@ getgenv().Config = {
         },
     },
     ["Auto Rebirth"] = {
-        ["Enabled"] = true,
+        ["Enabled"] = false,
         ["Max Rebirth"] = 27,
         ["Max Speed"] = 500,
     },
