@@ -1,14 +1,14 @@
 script_key="shIxPdcKCXgGwpimGwEnDjnfZWsHEOFp";
 getgenv().Config = {
     ["Main"] = {
-        ["Keep Inventory"] = "",
+        ["Keep Inventory"] = {""},
         ["Collect Cash"] = true,
         ["Collect Tokens"] = true,
         ["Collect Brainrots"] = true,
         ["Protected Rarities"] = {"Infinity"},
     },
     ["Performance"] = {
-        ["FPS Cap"] = 20,
+        ["FPS Cap"] = 30,
         ["Black Screen"] = false,
         ["Kick if Ping above"] = 75000,
     },
@@ -16,6 +16,7 @@ getgenv().Config = {
         ["Url"] = "https://discord.com/api/webhooks/1474602481282584587/X5c5UkGJVklYc0_vOpCnV665o5PLpl6MQbJs5_sWQzupC30iEkOdIc3wPmhkNKExUAl9",
         ["Discord ID"] = "",
         ["Ignore Notify"] = {},
+        ["Monitor Interval"] = 15,
     },
     ["Solo Mode"] = {
         ["Server Cloning"] = true,
@@ -23,7 +24,7 @@ getgenv().Config = {
     },
     ["Dupe Mode"] = {
         ["Arcade Machine"] = {
-            ["Enabled"] = true,
+            ["Enabled"] = false,
             ["Brainrots to Deposit"] = 1,
             ["Use Rarities"] = {""},
             ["Use Specific Brainrot"] = {"Draculini Meowlini"},
@@ -43,7 +44,7 @@ getgenv().Config = {
             ["Size Priority"] = 0,
         },
         ["Blackhole Machine"] = {
-            ["Enabled"] = true,
+            ["Enabled"] = false,
             ["Brainrots to Deposit"] = 1,
             ["Use Rarities"] = {""},
             ["Use Specific Brainrot"] = {"Draculini Meowlini"},
@@ -56,14 +57,14 @@ getgenv().Config = {
             ["Enabled"] = false,
             ["Brainrots to Deposit"] = 1,
             ["Use Rarities"] = {""},
-            ["Use Specific Brainrot"] = {""},
+            ["Use Specific Brainrot"] = {"Freezeti Cobretti"},
             ["Min Luck Minutes"] = 0,
-            ["Max Level"] = 190,
-            ["Max Scale"] = 2.99,
+            ["Max Level"] = 250,
+            ["Max Scale"] = 50,
             ["Size Priority"] = 0,
         },
         ["Letterbox Machine"] = {
-            ["Enabled"] = true,
+            ["Enabled"] = false,
             ["Brainrots to Deposit"] = 1,
             ["Use Rarities"] = {""},
             ["Use Specific Brainrot"] = {"Draculini Meowlini"},
@@ -82,6 +83,16 @@ getgenv().Config = {
             ["Max Scale"] = 50,
             ["Size Priority"] = 0,
         },
+        ["Fire & Ice Machine"] = {
+            ["Enabled"] = true,
+            ["Brainrots to Deposit"] = 1,
+            ["Use Rarities"] = {""},
+            ["Use Specific Brainrot"] = {"Draculini Meowlini"},
+            ["Min Luck Minutes"] = 0,
+            ["Max Level"] = 250,
+            ["Max Scale"] = 50,
+            ["Size Priority"] = 0,
+        },
     },
     ["Auto Rebirth"] = {
         ["Enabled"] = false,
@@ -89,16 +100,16 @@ getgenv().Config = {
         ["Max Speed"] = 500,
     },
     ["Lucky Blocks"] = {
-        ["Enabled"] = true,                              -- Enable Infinity farming while duping
-        ["Collect Types"] = {"Divine", "Celestial"},      -- Types to collect (Divine > Celestial, NOT Secret)
-        ["Max Level"] = 200,                              -- Max LB level (under 200 = better conversion)
-        ["Pickup Attempts"] = 8,                          -- Pickup attempts per LB
-        ["Auto Upgrade LB"] = true,                       -- Sell current LB if a better one spawns
+        ["Enabled"] = true,
+        ["Collect Types"] = {"Divine", "Celestial"},
+        ["Max Level"] = 200,
+        ["Pickup Attempts"] = 8,
+        ["Auto Upgrade LB"] = true,
     },
     ["Tower"] = {
-        ["Enabled"] = true,                                 -- Auto Tower Trials for Secret/Celestial/Divine/Infinity
-        ["Auto Claim"] = true,   
-        ["Collect Reward"] = {"Draculini Meowlini", "Magmew"},                             -- Brainrot names to pick up after reward (e.g. {"Noobini Infeeny", "Anububu"}). Infinity is always auto-collected.
+        ["Enabled"] = true,
+        ["Auto Claim"] = true,
+        ["Collect Reward"] = {"Magmew"},
     },
 }
 
