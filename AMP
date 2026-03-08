@@ -4,9 +4,8 @@ task.spawn(function()
         ["PetAMountToBuy"] = "0", -- can be 999
         ["WhatCategory"] = "pets", -- gifts if WhatCategory = "" then = pets
         ["PetRemoteToBuy"] = "", -- exemple for gifts halloween_2025_spider_box
+        ["check_for_2d_kitty"] = true, -- farm 2d kitty event work with eggfarm or petfarm
 
-
-        ["PetFarmAutoSwitchFullGrown"] = false,
         ["PetFarmActive"] = true, -- farm potion
 
 
