@@ -9,6 +9,9 @@ getgenv().sailorPieceConfig = {
     DELETE_ARTIFACT_RARITY = { "Common", "Rare" },
     DO_REPEATABLE_QUEST = "QuestNPC19",
 
+    AUTO_DUNGEON = { ["RuneDungeon"] = "Easy" },
+    AUTO_REPLAY_DUNGEON = true,
+
     EQUIP_SWORD = { "Ichigo", "Gryphon", "Dark Blade", "Katana" },
     BLESS_WEAPON = { ["Ichigo"] = 12, ["Gryphon"] = 6, ["Dark Blade"] = 3 },
 
