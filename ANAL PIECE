@@ -5,7 +5,7 @@ getgenv().sailorPieceConfig = {
     AUTO_UPDATE_RESTART = true,
     FARM_UNTIL_LEVEL = 13000,
     AUTO_FARM = { "Jinwoo Boss", "Alucard Boss", "Yuji Boss", "Gojo Boss", "Sukuna Boss", "Anos Boss", "Aizen Boss", "Strongest of Today Boss", "Strongest in History Boss", "Rimuru Boss", "Saber Boss", "QinShi Boss", "Ichigo Boss", "StrongestShinobiBoss", "ArenaFighter" },
-    SUMMON_BOSS = { "Strongest in History Easy" },
+    SUMMON_BOSS = { "Strongest in History Normal" },
     DELETE_ARTIFACT_RARITY = { "Common", "Rare" },
     DO_REPEATABLE_QUEST = "QuestNPC19",
 
