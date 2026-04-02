@@ -8,8 +8,6 @@ getgenv().sailorPieceConfig = {
     AUTO_FARM = { "Jinwoo Boss", "Alucard Boss", "Yuji Boss", "Gojo Boss", "Sukuna Boss", "Anos Boss", "Aizen Boss", "Strongest of Today Boss", "Strongest in History Boss", "Rimuru Boss", "Saber Boss", "QinShi Boss", "Ichigo Boss", "StrongestShinobiBoss", "MoonSlayerBoss", "ArenaFighter" },
     SUMMON_BOSS = { "Moon Slayer Normal", "Qin Shi", "Saber" },
     
-
-
     EQUIP_SWORD = { "Ichigo", "Gryphon", "Dark Blade", "Katana" },
     BLESS_WEAPON = { ["Ichigo"] = 10, ["Gryphon"] = 6, ["Strongest in History"] = 10 },
 
