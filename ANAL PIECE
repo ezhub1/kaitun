@@ -13,7 +13,7 @@ getgenv().sailorPieceConfig = {
     BLESS_WEAPON = { ["Ichigo"] = 10, ["Gryphon"] = 6, ["Strongest in History"] = 10 },
 
     STAT_POINT_PERCENTAGE = { ["Sword"] = 90, ["Defense"] = 10, ["Melee"] = 0, ["Power"] = 0 },
-    USE_ITEM = { "Common Chest", "Rare Chest", "Epic Chest", "Legendary Chest", "Mythical Chest" },
+    USE_ITEM = { "Common Chest", "Rare Chest", "Epic Chest", "Legendary Chest", "Secret Chest (Untradeable)" },
     BUY_MERCHANT = { "Race Reroll", "Clan Reroll", "Trait Reroll", "Passive Shard" },
 
     REROLL_RACE_UNTIL = { "Warlord", "Sunborn", "Servant", "Kitsune", "Swordblessed", "Galevorn", "Leviathan", "Oni", "Slime" },
