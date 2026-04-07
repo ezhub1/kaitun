@@ -7,9 +7,11 @@ getgenv().sailorPieceConfig = {
     MULTI_FARM = { "ArenaFighter", "Ninja", "Swordsman", "AcademyTeacher", "Slime", "Curse", "StrongSorcerer", "Hollow" },
     AUTO_FARM = { "Jinwoo Boss", "Alucard Boss", "Yuji Boss", "Gojo Boss", "Sukuna Boss", "Anos Boss", "Aizen Boss", "Strongest of Today Boss", "Strongest in History Boss", "Rimuru Boss", "Saber Boss", "QinShi Boss", "Ichigo Boss", "Moon Slayer Boss" },
     SUMMON_BOSS = {},
+    AUTO_DUNGEON = { ["CidDungeon"] = "Easy"},
+    AUTO_REPLAY_DUNGEON = true,
     
     EQUIP_WEAPON = { "Strongest In History", "Ichigo", "Gryphon", "Dark Blade", "Katana" },
-    BLESS_WEAPON = { ["Strongest In History"] = 10, ["Ichigo"] = 10, ["Gryphon"] = 6, ["Dark Blade"] = 3 },
+    BLESS_WEAPON = { ["Strongest In History"] = 10, ["Ichigo"] = 10, ["Gryphon"] = 10, ["Dark Blade"] = 3 },
 
     STAT_POINT_PERCENTAGE = { ["Sword"] = 90, ["Defense"] = 10, ["Melee"] = 0, ["Power"] = 0 },
     USE_ITEM = { "Common Chest", "Rare Chest", "Epic Chest", "Legendary Chest", "Aura Crate (Untradeable)", "Cosmetic Crate (Untradeable)", "Secret Chest (Untradeable)" },
