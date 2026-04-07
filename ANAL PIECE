@@ -18,7 +18,7 @@ getgenv().sailorPieceConfig = {
     REROLL_RACE_UNTIL = { "Warlord", "Sunborn", "Servant", "Kitsune", "Swordblessed", "Galevorn", "Leviathan", "Oni", "Slime" },
     REROLL_CLAN_UNTIL = { "Pride", "Monarch", "Alter", "Espada", "Voldigoat", "Eminence", "Upper" },
     REROLL_TRAIT_UNTIL = { "Overlord", "Cataclysm", "Singularity", "Celestial", "Emperor" },
-    REROLL_STAT_UNTIL = { ["Damage"] = "SS", ["Defense"] = "S", ["CooldownReduction"] = "S", ["CritChance"] = "SS", ["CritDamage"] = "SS", ["DamageReduction"] = "S", ["Luck"] = "SSS" },
+    REROLL_STAT_UNTIL = { ["Damage"] = "SSS", ["Defense"] = "S", ["CooldownReduction"] = "S", ["CritChance"] = "SS", ["CritDamage"] = "SS", ["DamageReduction"] = "S", ["Luck"] = "Z" },
     REROLL_PASSIVE_UNTIL = { ["Gryphon"] = { "Fortune Chosen", "Executioner", "Damage V" }, ["Ichigo"] = { "Fortune Chosen" }, ["Strongest In History"] = { "Fortune Chosen" } },    
     REROLL_POWER_UNTIL = { "Cursebrand", "Colossus", "Eternal", "Abyssal", "Apex" },
 
