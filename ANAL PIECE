@@ -5,7 +5,7 @@ getgenv().sailorPieceConfig = {
     AUTO_UPDATE_RESTART = true,
 
     MULTI_FARM = { "ArenaFighter", "Ninja", "Swordsman", "AcademyTeacher", "Slime", "Curse", "StrongSorcerer", "Hollow" },
-    AUTO_FARM = { "IceQueenBoss", "JinwooBoss", "AlucardBoss" },
+    AUTO_FARM = { "IceQueenBoss" },
     SUMMON_BOSS = { "Ice Queen Normal" },
     
     EQUIP_WEAPON = { "Strongest In History", "Strongest Shinobi", "Ichigo", "Gryphon", "Dark Blade", "Katana" },
