@@ -5,15 +5,16 @@ getgenv().sailorPieceConfig = {
     AUTO_UPDATE_RESTART = true,
 
     MULTI_FARM = { "ArenaFighter", "Ninja", "Swordsman", "AcademyTeacher", "Slime", "Curse", "StrongSorcerer", "Hollow" },
-    AUTO_FARM = {},
-    SUMMON_BOSS = {},
+    AUTO_FARM = { "IceQueenBoss", "JinwooBoss", "AlucardBoss" },
+    SUMMON_BOSS = { "IceQueenBoss" },
     
     EQUIP_WEAPON = { "Strongest In History", "Strongest Shinobi", "Ichigo", "Gryphon", "Dark Blade", "Katana" },
     BLESS_WEAPON = { ["Strongest In History"] = 10, ["Ichigo"] = 10, ["Gryphon"] = 10, ["Strongest Shinobi"] = 10 },
 
     STAT_POINT_PERCENTAGE = { ["Sword"] = 90, ["Defense"] = 10, ["Melee"] = 0, ["Power"] = 0 },
-    USE_ITEM = { "Common Chest", "Rare Chest", "Epic Chest", "Legendary Chest", "Aura Crate (Untradeable)", "Cosmetic Crate (Untradeable)", "Secret Chest (Untradeable)" },
-    BUY_MERCHANT = { "Race Reroll", "Clan Reroll", "Trait Reroll", "Passive Shard" },
+    BUILD_MODE = "Damage",  -- Damage/Luck
+    USE_ITEM = { "Common Chest", "Rare Chest", "Epic Chest", "Legendary Chest", "Mythical Chest", "Aura Crate (Untradeable)", "Cosmetic Crate (Untradeable)", "Secret Chest (Untradeable)" },
+    BUY_MERCHANT = { "Race Reroll", "Trait Reroll", "Clan Reroll", "Passive Shard", "Boss Key", "Dungeon Key", "Rush Key", "Boss Ticket", "Haki Color Reroll", "Common Chest", "Rare Chest", "Epic Chest", "Legendary Chest", "Mythical Chest", "Secret Chest" },
 
     REROLL_RACE_UNTIL = { "Kitsune", "Luckborn" },
     REROLL_CLAN_UNTIL = { "Pride", "Monarch", "Alter", "Espada", "Voldigoat", "Eminence", "Upper", "Frostbane" },
