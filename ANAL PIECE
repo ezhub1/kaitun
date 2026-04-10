@@ -14,7 +14,7 @@ getgenv().sailorPieceConfig = {
     REROLL_PASSIVE_UNTIL = { ["Ichigo"] = { "Fortune Chosen", "Executioner", "Rampage", "Damage V" }, ["Strongest In History"] = { "Fortune Chosen", "Executioner", "Rampage", "Damage V" }, ["Ice Queen"] = { "Fortune Chosen" }, ["Gilgamesh"] = { "Fortune Chosen", "Executioner", "Rampage", "Damage V" } },
     
     STAT_POINT_PERCENTAGE = { ["Sword"] = 90, ["Defense"] = 10, ["Melee"] = 0, ["Power"] = 0 },
-    BUILD_MODE = "Damage",  -- Damage/Luck
+    BUILD_MODE = "Luck",  -- Damage/Luck
     USE_ITEM = { "Common Chest", "Rare Chest", "Epic Chest", "Legendary Chest", "Mythical Chest", "Aura Crate (Untradeable)", "Cosmetic Crate (Untradeable)", "Secret Chest (Untradeable)" },
     BUY_MERCHANT = { "Race Reroll", "Trait Reroll", "Clan Reroll", "Passive Shard", "Boss Key", "Dungeon Key", "Rush Key", "Boss Ticket", "Haki Color Reroll", "Common Chest", "Rare Chest", "Epic Chest", "Legendary Chest", "Mythical Chest", "Secret Chest" },
 
