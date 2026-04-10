@@ -3,10 +3,11 @@ setfpscap(10)
 
 getgenv().sailorPieceConfig = {  
     AUTO_UPDATE_RESTART = true,
+    ASCEND_UNTIL_LEVEL = 10,
 
     MULTI_FARM = { "ArenaFighter", "Ninja", "Swordsman", "AcademyTeacher", "Slime", "Curse", "StrongSorcerer", "Hollow" },
-    AUTO_FARM = { "IceQueenBoss" },
-    SUMMON_BOSS = { "Ice Queen Normal" },
+    AUTO_FARM = {},
+    SUMMON_BOSS = {},
     
     EQUIP_WEAPON = {"Ice Queen", "Strongest In History", "Moon Slayer", "Saber Alter", "Gilgamesh", "Strongest Shinobi", "Ichigo", "Gryphon", "Dark Blade", "Katana"},
     BUY_WEAPON = {"Katana", "Dark Blade", "Gryphon", "Ichigo", "Strongest In History", "Ice Queen", "Gilgamesh", "Moon Slayer", "Strongest Shinobi", "Moon Slayer"},
