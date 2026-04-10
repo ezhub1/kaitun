@@ -19,7 +19,7 @@ getgenv().sailorPieceConfig = {
     BUY_MERCHANT = { "Race Reroll", "Trait Reroll", "Clan Reroll", "Passive Shard", "Boss Key", "Dungeon Key", "Rush Key", "Boss Ticket", "Haki Color Reroll", "Common Chest", "Rare Chest", "Epic Chest", "Legendary Chest", "Mythical Chest", "Secret Chest" },
 
     REROLL_RACE_UNTIL = { "Kitsune", "Luckborn" },
-    REROLL_CLAN_UNTIL = { "Pride", "Monarch", "Alter", "Espada", "Voldigoat", "Eminence", "Upper", "Frostbane" },
+    REROLL_CLAN_UNTIL = { "Monarch", "Eminence" },
     REROLL_TRAIT_UNTIL = { "Overlord", "Cataclysm", "Singularity", "Celestial", "Emperor" },
     REROLL_STAT_UNTIL = { ["Damage"] = "S", ["Defense"] = "S", ["CooldownReduction"] = "S", ["CritChance"] = "SS", ["CritDamage"] = "SS", ["DamageReduction"] = "S", ["Luck"] = "Z" },
     REROLL_POWER_UNTIL = { "Cursebrand", "Colossus", "Eternal", "Abyssal", "Apex" },
