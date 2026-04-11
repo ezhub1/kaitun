@@ -6,7 +6,7 @@ getgenv().sailorPieceConfig = {
     ASCEND_UNTIL_LEVEL = 8,
 
     MULTI_FARM = { "ArenaFighter", "Ninja", "Swordsman", "AcademyTeacher", "Slime", "Curse", "StrongSorcerer", "Hollow" },
-    AUTO_FARM = {},
+    AUTO_FARM = { "JinwooBoss", "AlucardBoss" },
     SUMMON_BOSS = {},
     
     EQUIP_WEAPON = {"Ice Queen", "Strongest In History", "Moon Slayer", "Saber Alter", "Gilgamesh", "Strongest Shinobi", "Ichigo", "Gryphon", "Dark Blade", "Katana"},
