@@ -9,9 +9,6 @@ getgenv().sailorPieceConfig = {
     AUTO_FARM = {},
     SUMMON_BOSS = {},
     
-    AUTO_INFINITE_TOWER = true,
-    DO_INFINITE_TOWER_MIN_KEY = 100, 
-    SET_AUTO_TOWER_RESET = 50,
 
     EQUIP_WEAPON = {"Ice Queen", "Strongest In History", "Moon Slayer", "Saber Alter", "Gilgamesh", "Strongest Shinobi", "Ichigo", "Gryphon", "Dark Blade", "Katana"},
     BUY_WEAPON = {"Katana", "Dark Blade", "Gryphon", "Ichigo", "Strongest In History", "Ice Queen"},
@@ -26,7 +23,7 @@ getgenv().sailorPieceConfig = {
     REROLL_RACE_UNTIL = { "Kitsune", "Luckborn" },
     REROLL_CLAN_UNTIL = { "Monarch", "Eminence" },
     REROLL_TRAIT_UNTIL = { "Overlord", "Cataclysm", "Singularity", "Celestial", "Emperor" },
-    REROLL_STAT_UNTIL = { ["Damage"] = "S", ["Defense"] = "S", ["CooldownReduction"] = "S", ["CritChance"] = "SS", ["CritDamage"] = "SS", ["DamageReduction"] = "S", ["Luck"] = "Z" },
+    REROLL_STAT_UNTIL = { ["Damage"] = "S", ["Defense"] = "S", ["CooldownReduction"] = "S", ["CritChance"] = "S", ["CritDamage"] = "S", ["DamageReduction"] = "S", ["Luck"] = "Z" },
     REROLL_POWER_UNTIL = { "Cursebrand", "Colossus", "Eternal", "Abyssal", "Apex" },
 
     DELETE_ARTIFACT_RARITY = { "Common", "Rare" },
