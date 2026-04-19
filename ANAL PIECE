@@ -5,7 +5,7 @@ getgenv().sailorPieceConfig = {
     AUTO_UPDATE_RESTART = true,
     ASCEND_UNTIL_LEVEL = 8,
 
-    MULTI_FARM = { "ArenaFighter", "Ninja", "Swordsman", "AcademyTeacher", "Slime", "Curse", "StrongSorcerer", "Hollow" },
+    MULTI_FARM = { "Bunny", "ArenaFighter", "Ninja", "Swordsman", "AcademyTeacher", "Slime", "StrongSorcerer", "Curse", "Hollow", "Sorcerer", "FrostRogue", "DesertMonkey", "Monkey", "Thief" },
     AUTO_FARM = {},
     SUMMON_BOSS = {},
     
